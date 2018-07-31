@@ -9,7 +9,12 @@ module.exports = {
   ],
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'import/extensions': ['error', 'ignorePackages', {
+          'js': 'never',
+          'vue': 'never',
+      }],
+      'import/first': 'off',
   },
   parserOptions: {
     parser: 'babel-eslint'

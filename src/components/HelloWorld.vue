@@ -2,11 +2,12 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      For guide and recipes on how to configure / customize this project,<br>
-      check out the
+      For guide and recipes on how to configure / customize this,<br>
+      check out asdasd ako lng ni
       <a href="https://cli.vuejs.org" target="_blank">vue-cli documentation</a>.
     </p>
     <h3>Installed CLI Plugins</h3>
+    <b-btn>My bootstrap button</b-btn>
     <ul>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank">babel</a></li>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank">eslint</a></li>

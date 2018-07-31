@@ -1,0 +1,52 @@
+// This is where we will import our bootstrap components etc
+
+//Set up site custom colors... Might want to change this
+$blue: #3075e9;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #e83e8c;
+$red: #dc3545;
+$orange: #ff9c32;
+$yellow: #ffc107;
+$green: #b2c74e;
+$teal: #20c997;
+$cyan: #17a2b8;
+
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #868e96;
+$gray-700: #495057;
+$gray-800: #2c2c2c;
+$gray-900: #202020;
+$black: #000;
+
+$primary: $green;
+$secondary: $orange;
+$success: $blue;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-800;
+
+
+$theme-colors: ();
+$theme-colors: map-merge((
+        "primary": $primary,
+        "secondary": $secondary,
+        "success": $success,
+        "info": $info,
+        "warning": $warning,
+        "danger": $danger,
+        "light": $light,
+        "dark": $dark
+), $theme-colors);
+
+$table-accent-bg: lighten($secondary, 30%);
+$table-head-bg: $secondary;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
