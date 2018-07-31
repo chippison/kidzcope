@@ -1,0 +1,32 @@
+import Vue from 'vue';
+
+import bContainer from 'bootstrap-vue/es/components/layout/container';
+import bRow from 'bootstrap-vue/es/components/layout/row';
+import bCol from 'bootstrap-vue/es/components/layout/col';
+import bBtn from 'bootstrap-vue/es/components/button/button';
+import bNavbar from 'bootstrap-vue/es/components/navbar/navbar';
+import bNavbarNav from 'bootstrap-vue/es/components/navbar/navbar-nav';
+import bNavItemDropDown from 'bootstrap-vue/es/components/nav/nav-item-dropdown';
+import bNavText from 'bootstrap-vue/es/components/nav/nav-text';
+import bNavToggle from 'bootstrap-vue/es/components/navbar/navbar-toggle';
+import bCollapse from 'bootstrap-vue/es/components/collapse/collapse';
+import bNavItem from 'bootstrap-vue/es/components/nav/nav-item';
+import bNav from 'bootstrap-vue/es/components/nav/nav';
+import bFormInput from 'bootstrap-vue/es/components/form-input/form-input';
+import bFormGrp from 'bootstrap-vue/es/components/form-group/form-group';
+
+Vue.component('b-container', bContainer);
+Vue.component('b-row', bRow);
+Vue.component('b-col', bCol);
+Vue.component('b-btn', bBtn);
+Vue.component('b-navbar', bNavbar);
+Vue.component('b-navbar-nav', bNavbarNav);
+Vue.component('b-container', bContainer);
+Vue.component('b-nav-text', bNavText);
+Vue.component('b-nav-item-dropdown', bNavItemDropDown);
+Vue.component('b-nav-toggle', bNavToggle);
+Vue.component('b-collapse', bCollapse);
+Vue.component('b-nav-item', bNavItem);
+Vue.component('b-nav', bNav);
+Vue.component('b-form-input', bFormInput);
+Vue.component('b-form-group', bFormGrp);
